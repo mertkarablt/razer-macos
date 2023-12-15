@@ -3,10 +3,14 @@
 export APPLE_ID=""
 export APPLE_ID_PASSWORD=""
 
-yarn clean
-rm -rf ./node_modules ./dist
+yarn cache clean
+rm -rf ./node_modules ./dist ./build ./yarn.lock
 
-yarn
+yarn config set openssl_fips ''
+
+yarn install
+
+yarn config set 'openssl_fips' ''
 
 yarn dist
 
