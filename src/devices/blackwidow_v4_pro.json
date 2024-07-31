@@ -1,21 +1,21 @@
 {
-  "name": "Razer BlackWidow V4 Pro",
+  "name": "Razer BlackWidow V4 PRO",
   "productId": "0x028D",
   "mainType": "keyboard",
   "image": "https://dl.razerzone.com/src2/9703/9703-1-en-v1.png",
   "features": null,
   "featuresConfig": [
-      {
-          "ripple": {
-              "rows": 8,
-              "cols": 23
-          }
-      },
-      {
-          "wheel": {
-              "rows": 8,
-              "cols": 23
-          }
+    {
+      "ripple": {
+        "rows": 8,
+        "cols": 24
       }
+    },
+    {
+      "wheel": {
+        "rows": 8,
+        "cols": 24
+      }
+    }
   ]
 }

@@ -1,3 +1,4 @@
+<meta name="msvalidate.01" content="62243DA724E3CF411BD1E31EBA2175E1" />
 <p align="center">
   <img src="resources/hero.png" alt="keyboard demo pic" />
   <p align="center">Open source color effects manager for Razer devices on macOS</p>
@@ -12,9 +13,12 @@
 - **Persistent color settings** Color effects are saved to onboard memory
 - **Works on the latest macOS** Including Intel and Apple Silicon. There are no current plans from Razer to support macOS ([source](https://mysupport.razer.com/app/answers/detail/a_id/1381/kw/macOS))
 
+## Important note
+This is not the original repo the original repo is from [1kc/librazermacos](https://github.com/1kc/razer-macos) I forked this repo to maintain it as the original seems to be abandoned.
+
 ## Download
 
-[Latest release](https://github.com/1kc/razer-macos/releases)
+[Latest release](https://github.com/mertkarablt/razer-macos/releases)
 
 ## Installation instructions
 
@@ -34,8 +38,6 @@ Please see FAQ section below if color changes are not working, otherwise open a 
 - 🔊 Speakers
 - 🍺 Mug
 - ⭐️ And More
-
-For a complete list of supported devices, please see [openrazer](https://openrazer.github.io).
 
 Confirmed working for:
 
@@ -62,11 +64,14 @@ Keyboards:
 - Razer BlackWidow X Chroma
 - Razer BlackWidow X Chroma Tournament Edition
 - Razer BlackWidow X Chroma Ultimate
+- Razer BlackWidow V4 PRO
+- Razer BlackWidow V4 75%
 - Razer Cynosa Chroma
 - Razer Cynosa Lite
 - Razer Cynosa V2
 - Razer Deathstalker Chroma
 - Razer Deathstalker Expert
+- Razer Deathstalker V2
 - Razer Huntsman
 - Razer Huntsman Elite
 - Razer Huntsman Mini
@@ -129,6 +134,7 @@ Mice:
 - Razer Naga Left Handed 2020
 - Razer Naga Pro (wired and wireless)
 - Razer Naga Trinity
+- Razer Naga X
 - Razer Orochi 2011
 - Razer Orochi 2013
 - Razer Orochi Chroma
@@ -221,7 +227,7 @@ Ongoing new device support will be provided on a volunteer contribution basis, a
 
 ## Developer usage
 
-    git clone --recursive https://github.com/1kc/razer-macos.git
+    git clone --recursive https://github.com/mertkarablt/razer-macos
 
 Ensure xcode command line tools are installed,
 

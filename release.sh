@@ -2,6 +2,7 @@
 
 export APPLE_ID=""
 export APPLE_ID_PASSWORD=""
+export APPLE_TEAM_ID=""
 
 yarn cache clean
 rm -rf ./node_modules ./dist ./build ./yarn.lock
@@ -21,3 +22,4 @@ fi
 
 unset APPLE_ID
 unset APPLE_ID_PASSWORD
+unset APPLE_TEAM_ID
